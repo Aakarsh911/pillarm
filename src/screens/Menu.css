@@ -1,0 +1,13 @@
+/* src/screens/Menu.css */
+.menu { padding: var(--space-5) var(--space-4); }
+.menu__header { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-6); }
+.menu__header h1 { font-size: var(--font-size-lg); font-weight: var(--font-weight-bold); margin: 0; flex: 1; text-align: center; }
+.menu__header button { font-size: var(--font-size-xl); width: 32px; }
+.menu__grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: var(--space-4); }
+.menu__tile {
+  height: 162px; border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, #ffb46b, #ff8a3d);
+  color: var(--color-text-inverse);
+  font-size: var(--font-size-md); font-weight: var(--font-weight-semibold);
+  display: flex; align-items: center; justify-content: center;
+}

@@ -1,0 +1,11 @@
+/* src/screens/Messaging.css */
+.messaging { padding: var(--space-5) var(--space-4); }
+.messaging__header { display: flex; align-items: center; gap: var(--space-3); margin-bottom: var(--space-6); }
+.messaging__header h1 { font-size: var(--font-size-lg); font-weight: var(--font-weight-bold); margin: 0; flex: 1; text-align: center; }
+.messaging__header button { font-size: var(--font-size-xl); width: 32px; }
+.messaging__bot { display: flex; flex-direction: column; gap: var(--space-4); }
+.messaging__bubble {
+  background: var(--color-surface-muted); padding: var(--space-4);
+  border-radius: var(--radius-lg); font-size: var(--font-size-sm); max-width: 80%;
+}
+.messaging__bubble--user { align-self: flex-end; background: var(--color-accent); color: var(--color-text-inverse); }

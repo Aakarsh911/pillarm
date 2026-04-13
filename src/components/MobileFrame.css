@@ -1,0 +1,21 @@
+/* src/components/MobileFrame.css */
+.mobile-frame {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 0;
+  }
+  .mobile-frame__inner {
+    width: var(--frame-width);
+    min-height: var(--frame-height);
+    background: inherit;
+    position: relative;
+    overflow: hidden;
+    border-radius: 32px;
+    box-shadow: var(--shadow-lg);
+  }
+  @media (max-width: 768px) {
+    .mobile-frame { padding: 0; }
+    .mobile-frame__inner { width: 100%; border-radius: 0; box-shadow: none; }
+  }

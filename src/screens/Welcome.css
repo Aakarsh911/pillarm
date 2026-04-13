@@ -1,0 +1,12 @@
+/* src/screens/Welcome.css */
+.welcome { padding: var(--space-8) var(--space-4); display: flex; flex-direction: column; gap: var(--space-8); }
+.welcome__illustration { height: 280px; background: var(--color-surface-muted); border-radius: var(--radius-lg); }
+.welcome__title { font-size: var(--font-size-2xl); font-weight: var(--font-weight-bold); line-height: var(--line-height-tight); margin: 0; }
+.welcome__cta {
+  display: flex; align-items: center; justify-content: space-between;
+  background: var(--color-accent); color: var(--color-text-inverse);
+  padding: var(--space-4) var(--space-5); border-radius: var(--radius-lg);
+  font-size: var(--font-size-base); font-weight: var(--font-weight-semibold);
+  width: 234px;
+}
+.welcome__arrow { font-size: var(--font-size-xl); }

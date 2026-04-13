@@ -1,0 +1,14 @@
+/* src/components/Button.css */
+.btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    height: 56px; padding: 0 var(--space-6);
+    border-radius: var(--radius-lg);
+    font-size: var(--font-size-base); font-weight: var(--font-weight-semibold);
+    transition: opacity 0.2s ease, transform 0.1s ease;
+  }
+  .btn--full { width: 100%; }
+  .btn--primary { background: var(--color-accent); color: var(--color-text-inverse); }
+  .btn--primary:hover { opacity: 0.92; }
+  .btn--primary:active { transform: scale(0.98); }
+  .btn--secondary { background: var(--color-surface-muted); color: var(--color-text-primary); }
+  .btn--ghost { background: transparent; color: var(--color-accent); }

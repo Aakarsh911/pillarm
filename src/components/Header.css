@@ -1,0 +1,23 @@
+/* src/components/Header.css */
+.header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: var(--space-4) var(--space-5);
+  }
+  .header__title { font-size: var(--font-size-lg); font-weight: var(--font-weight-semibold); margin: 0; }
+  .header__nav { display: flex; gap: var(--space-5); }
+  .header__link { color: var(--color-text-secondary); font-weight: var(--font-weight-medium); }
+  .header__link.active { color: var(--color-accent); }
+  .header__hamburger { display: none; flex-direction: column; gap: 4px; padding: 8px; }
+  .header__hamburger span { width: 22px; height: 2px; background: var(--color-text-primary); border-radius: 2px; }
+  
+  @media (max-width: 1024px) {
+    .header__hamburger { display: flex; }
+    .header__nav {
+      position: absolute; top: 60px; left: 0; right: 0;
+      flex-direction: column; background: var(--color-surface);
+      padding: 0 var(--space-5);
+      max-height: 0; overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+    .header__nav--open { max-height: 320px; padding: var(--space-4) var(--space-5); }
+  }

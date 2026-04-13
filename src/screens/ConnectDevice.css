@@ -1,0 +1,17 @@
+/* src/screens/ConnectDevice.css */
+.connect { display: flex; flex-direction: column; gap: var(--space-5); padding-bottom: var(--space-6); }
+.connect__hero {
+  height: 305px;
+  background: linear-gradient(180deg, #ffb46b 0%, #ff8a3d 100%);
+}
+.connect__title { font-size: var(--font-size-xl); font-weight: var(--font-weight-bold); margin: 0 var(--space-5); }
+.connect__steps { list-style: none; padding: 0 var(--space-5); margin: 0; display: flex; flex-direction: column; gap: var(--space-5); }
+.connect__step { display: flex; align-items: center; gap: var(--space-3); }
+.connect__icon { font-size: var(--font-size-lg); color: var(--color-accent); }
+.connect__label { font-size: var(--font-size-base); font-weight: var(--font-weight-medium); }
+.connect__skip {
+  text-align: center; color: var(--color-accent);
+  font-weight: var(--font-weight-semibold); padding: var(--space-3);
+}
+.connect { padding-left: 0; padding-right: 0; }
+.connect > button.btn--full { margin: 0 var(--space-4); width: calc(100% - var(--space-8)); }

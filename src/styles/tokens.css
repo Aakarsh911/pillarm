@@ -1,0 +1,70 @@
+/* src/styles/tokens.css */
+:root {
+    /* Colors — extracted from Figma frames */
+    --color-bg: #ffffff;
+    --color-bg-alt: #f5f5f7;
+    --color-surface: #ffffff;
+    --color-surface-muted: #f2f2f7;
+    --color-text-primary: #1a1a1a;
+    --color-text-secondary: #6b6b6b;
+    --color-text-muted: #949494;
+    --color-text-inverse: #ffffff;
+    --color-accent: #ff8a3d;       /* sunrise orange */
+    --color-accent-dark: #e96a1a;
+    --color-primary: #2b2b2b;
+    --color-border: #e5e5ea;
+    --color-card: #ffffff;
+    --color-card-shadow: rgba(0, 0, 0, 0.06);
+    --color-overlay: rgba(0, 0, 0, 0.4);
+    --color-divider: #ececec;
+  
+    /* Typography */
+    --font-family-base: -apple-system, BlinkMacSystemFont, 'SF Pro Display',
+      'Inter', 'Segoe UI', Roboto, sans-serif;
+    --font-size-xs: 12px;
+    --font-size-sm: 14px;
+    --font-size-base: 16px;
+    --font-size-md: 18px;
+    --font-size-lg: 20px;
+    --font-size-xl: 24px;
+    --font-size-2xl: 30px;
+    --font-size-3xl: 40px;
+    --font-size-display: 64px;
+  
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+  
+    --line-height-tight: 1.1;
+    --line-height-base: 1.4;
+    --line-height-loose: 1.6;
+  
+    /* Spacing scale */
+    --space-1: 4px;
+    --space-2: 8px;
+    --space-3: 12px;
+    --space-4: 16px;
+    --space-5: 20px;
+    --space-6: 24px;
+    --space-8: 32px;
+    --space-10: 40px;
+    --space-12: 48px;
+    --space-16: 64px;
+  
+    /* Radii */
+    --radius-sm: 6px;
+    --radius-md: 12px;
+    --radius-lg: 16px;
+    --radius-xl: 24px;
+    --radius-pill: 999px;
+  
+    /* Shadows */
+    --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+    --shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.12);
+  
+    /* Mobile frame (Figma artboard = 375x812) */
+    --frame-width: 375px;
+    --frame-height: 812px;
+  }

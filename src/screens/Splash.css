@@ -1,0 +1,12 @@
+/* src/screens/Splash.css */
+.splash {
+    height: var(--frame-height);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .splash__logo {
+    font-size: var(--font-size-display);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-text-inverse);
+    margin: 0; letter-spacing: -1px;
+  }
+  @media (max-width: 768px) { .splash { height: 100vh; } }
